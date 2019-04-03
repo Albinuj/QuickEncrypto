@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_encrypt"
+        android:icon="@drawable/encrypt"
+        android:orderInCategory="100"
+        android:title="@string/encrypt"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_decrypt"
+        android:orderInCategory="200"
+        android:title="@string/decrypt"
+        android:icon="@drawable/decrypt"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="400"
+        android:title="@string/about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="600"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_shareapp"
+        android:orderInCategory="500"
+        android:title="@string/share_app"
+        app:showAsAction="never" />
+</menu>
