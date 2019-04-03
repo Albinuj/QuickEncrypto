@@ -2,6 +2,7 @@
 
 /**
  * Database config variables
+ * Created by Albin John
  */
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
